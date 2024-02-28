@@ -4,7 +4,7 @@ const routes=require('./routes/TodoRoutes')
 require('dotenv').config()
 const cors=require("cors")
 const app=express()
-const PORT= process.env.port||5000
+const PORT= process.env.port
 app.use(express.json())
 app.use(cors())
 mongoose
